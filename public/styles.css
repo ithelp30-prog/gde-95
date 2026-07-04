@@ -152,6 +152,7 @@ body {
 /* Footer */
 .ftr { margin-top: 18px; padding-top: 14px; display: flex; flex-wrap: wrap; align-items: center;
   gap: 8px; color: var(--txt-faint); font-size: 12px; justify-content: center; text-align: center; }
+.ftr a { color: var(--txt-dim); }
 .dot { opacity: 0.5; }
 
 /* Skeleton / empty */

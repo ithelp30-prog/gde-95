@@ -18,7 +18,7 @@ const MIME = {
 createServer(async (req, res) => {
   try {
     let p = decodeURIComponent(req.url.split('?')[0]);
-    if (p === '/') p = '/index.html';
+    if (p.endsWith('/')) p += 'index.html';
     const file = normalize(join(root, p));
     if (!file.startsWith(normalize(root))) { res.writeHead(403).end(); return; }
     const buf = await readFile(file);

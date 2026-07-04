@@ -1,0 +1,45 @@
+/* Стиль страниц-статей «Широков AI» — читаемо, семантично, тема авто */
+:root{
+  --bg:#ffffff; --fg:#12151a; --muted:#5b636d; --line:#e6e9ee; --accent:#c0392b;
+  --card:#f6f7f9;
+  --ok:#2ecc71; --strained:#f2c94c; --deficit:#f2994a; --severe:#eb5757;
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#0b0d10; --fg:#eef1f5; --muted:#9aa3ad; --line:#23272e; --card:#14171c; --accent:#ff6f61; }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--font);
+  font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;
+  max-width:760px;margin:0 auto;padding:16px 20px;border-bottom:1px solid var(--line)}
+.brand{font-weight:800;text-decoration:none;color:var(--fg);letter-spacing:-.02em}
+.chan{font-size:14px;text-decoration:none;color:var(--accent);font-weight:600}
+.wrap{max-width:760px;margin:0 auto;padding:24px 20px 8px}
+h1{font-size:30px;line-height:1.2;letter-spacing:-.02em;margin:.2em 0 .4em}
+h2{font-size:22px;letter-spacing:-.01em;margin:1.6em 0 .5em;padding-top:.2em}
+h3{font-size:18px;margin:1.3em 0 .3em}
+p{margin:.7em 0}
+a{color:var(--accent)}
+.meta{color:var(--muted);font-size:14px;margin-top:0}
+.lead{font-size:19px;background:var(--card);border:1px solid var(--line);
+  border-radius:12px;padding:14px 16px}
+.muted{color:var(--muted)}
+ul{padding-left:1.2em}
+li{margin:.3em 0}
+.tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:.6em 0;
+  border:1px solid var(--line);border-radius:12px}
+table{border-collapse:collapse;width:100%;font-size:15px;min-width:520px}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--card);font-size:13px;text-transform:uppercase;letter-spacing:.03em;color:var(--muted)}
+tr:last-child td{border-bottom:none}
+.badge{display:inline-block;font-size:12px;font-weight:700;color:#0b0d10;
+  padding:3px 9px;border-radius:999px;white-space:nowrap}
+.b-ok{background:var(--ok)} .b-strained{background:var(--strained)}
+.b-deficit{background:var(--deficit)} .b-severe{background:var(--severe)}
+.list{list-style:none;padding:0}
+.list li{padding:12px 0;border-bottom:1px solid var(--line)}
+.list a{font-weight:700;text-decoration:none}
+.foot{max-width:760px;margin:24px auto 40px;padding:16px 20px;border-top:1px solid var(--line);
+  color:var(--muted);font-size:14px}
+.foot a{color:var(--muted)}
