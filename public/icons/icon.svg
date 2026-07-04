@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Где 95-й">
+  <rect width="512" height="512" rx="112" fill="#0b0d10"/>
+  <path d="M256 96c-70 84-108 140-108 190a108 108 0 0 0 216 0c0-50-38-106-108-190z" fill="#ffd23f"/>
+  <text x="256" y="322" text-anchor="middle" font-family="-apple-system, Segoe UI, Roboto, Arial, sans-serif"
+        font-size="132" font-weight="800" fill="#0b0d10" letter-spacing="-4">95</text>
+</svg>

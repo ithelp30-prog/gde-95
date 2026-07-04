@@ -1,0 +1,8 @@
+node_modules/
+twa/*.keystore
+twa/*.aab
+twa/*.apk
+twa/.gradle/
+twa/app/
+*.log
+.DS_Store

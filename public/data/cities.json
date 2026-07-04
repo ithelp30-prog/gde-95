@@ -1,0 +1,367 @@
+{
+  "updated": "2026-07-03T16:12:23.287+03:00",
+  "schema": 1,
+  "source_note": "Данные агрегируются из открытых источников (Wikipedia «Топливный кризис в России (с 2025)», Радио Свобода, Lenta.ru, Expert South). Часть фактов проверена перекрёстно, часть отмечена как «уточняется». Обновляется конвейером «Широков AI».",
+  "national": {
+    "level": "severe",
+    "headline": "Топливный кризис охватил более 2/3 регионов России: лимиты на АЗС, цены на пике",
+    "avg_price_95": null,
+    "avg_price_92": 71.5,
+    "trend": "up"
+  },
+  "legend": {
+    "ok": "Норма",
+    "strained": "Перебои",
+    "deficit": "Дефицит",
+    "severe": "Жёсткий дефицит"
+  },
+  "regions": [
+    {
+      "id": "krym",
+      "region": "Республика Крым",
+      "city": "Симферополь",
+      "federal_district": "ЮФО",
+      "status": "severe",
+      "fuels": [
+        "АИ-95",
+        "АИ-92"
+      ],
+      "limit": "продажа населению остановлена",
+      "price_95": null,
+      "price_92": null,
+      "note": "Первый регион с дефицитом (август 2025). С 21 июня 2026 продажа топлива населению полностью прекращена — заправляют только экстренные службы.",
+      "since": "2025-08",
+      "lat": 44.95,
+      "lon": 34.1,
+      "sources": [
+        {
+          "title": "Wikipedia: Топливный кризис в России",
+          "url": "https://ru.wikipedia.org/wiki/Топливный_кризис_в_России_(с_2025)"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "zabaikalye",
+      "region": "Забайкальский край",
+      "city": "Чита",
+      "federal_district": "ДФО",
+      "status": "severe",
+      "fuels": [
+        "АИ-92",
+        "АИ-95"
+      ],
+      "limit": "15 л в одни руки",
+      "price_95": null,
+      "price_92": null,
+      "note": "Самый жёсткий лимит в стране — 15 литров на одну заправку (с 26 июня 2026).",
+      "since": "2026-06",
+      "lat": 52.03,
+      "lon": 113.5,
+      "sources": [
+        {
+          "title": "Wikipedia: Топливный кризис в России",
+          "url": "https://ru.wikipedia.org/wiki/Топливный_кризис_в_России_(с_2025)"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "irkutsk",
+      "region": "Иркутская область",
+      "city": "Иркутск",
+      "federal_district": "СФО",
+      "status": "deficit",
+      "fuels": [
+        "АИ-92"
+      ],
+      "limit": "20 л в одни руки",
+      "price_95": null,
+      "price_92": 71,
+      "note": "АИ-92 за сутки подорожал с 68 до 71+ ₽. Часть АЗС закрылась, распродав топливо. Губернатор Кобзев назвал ситуацию напряжённой, регион перешёл на «ручной режим».",
+      "since": "2026-06",
+      "lat": 52.29,
+      "lon": 104.3,
+      "sources": [
+        {
+          "title": "Радио Свобода: Нефтяная держава без бензина",
+          "url": "https://www.svoboda.org/a/neftyanaya-derzhava-bez-benzina-toplivnyy-krizis-v-rossiyskih-regionah/33786850.html"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "dagestan",
+      "region": "Республика Дагестан",
+      "city": "Махачкала",
+      "federal_district": "СКФО",
+      "status": "deficit",
+      "fuels": [
+        "АИ-92",
+        "АИ-95"
+      ],
+      "limit": "20 л бензина / 50 л дизеля",
+      "price_95": null,
+      "price_92": null,
+      "note": "Введён лимит: не более 20 литров бензина и 50 литров дизеля на заправку.",
+      "since": "2026-06",
+      "lat": 42.98,
+      "lon": 47.5,
+      "sources": [
+        {
+          "title": "Wikipedia: Топливный кризис в России",
+          "url": "https://ru.wikipedia.org/wiki/Топливный_кризис_в_России_(с_2025)"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "lipetsk",
+      "region": "Липецкая область",
+      "city": "Липецк",
+      "federal_district": "ЦФО",
+      "status": "deficit",
+      "fuels": [
+        "АИ-92",
+        "АИ-95"
+      ],
+      "limit": "30 л в одни руки",
+      "price_95": null,
+      "price_92": null,
+      "note": "Лимит отпуска — 30 литров на одну заправку.",
+      "since": "2026-06",
+      "lat": 52.61,
+      "lon": 39.6,
+      "sources": [
+        {
+          "title": "Wikipedia: Топливный кризис в России",
+          "url": "https://ru.wikipedia.org/wiki/Топливный_кризис_в_России_(с_2025)"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "saratov",
+      "region": "Саратовская область",
+      "city": "Саратов",
+      "federal_district": "ПФО",
+      "status": "deficit",
+      "fuels": [
+        "АИ-92",
+        "АИ-95"
+      ],
+      "limit": "30 л в одни руки",
+      "price_95": null,
+      "price_92": null,
+      "note": "Лимит отпуска — 30 литров на одну заправку.",
+      "since": "2026-06",
+      "lat": 51.53,
+      "lon": 46.03,
+      "sources": [
+        {
+          "title": "Wikipedia: Топливный кризис в России",
+          "url": "https://ru.wikipedia.org/wiki/Топливный_кризис_в_России_(с_2025)"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "mordovia",
+      "region": "Республика Мордовия",
+      "city": "Саранск",
+      "federal_district": "ПФО",
+      "status": "deficit",
+      "fuels": [
+        "АИ-92",
+        "АИ-95"
+      ],
+      "limit": "30 л в одни руки",
+      "price_95": null,
+      "price_92": null,
+      "note": "Лимит отпуска — 30 литров на одну заправку.",
+      "since": "2026-06",
+      "lat": 54.18,
+      "lon": 45.18,
+      "sources": [
+        {
+          "title": "Wikipedia: Топливный кризис в России",
+          "url": "https://ru.wikipedia.org/wiki/Топливный_кризис_в_России_(с_2025)"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "kurgan",
+      "region": "Курганская область",
+      "city": "Курган",
+      "federal_district": "УФО",
+      "status": "strained",
+      "fuels": [
+        "АИ-92",
+        "АИ-95"
+      ],
+      "limit": "40 л в одни руки",
+      "price_95": null,
+      "price_92": null,
+      "note": "Лимит отпуска — 40 литров на одну заправку.",
+      "since": "2026-06",
+      "lat": 55.44,
+      "lon": 65.34,
+      "sources": [
+        {
+          "title": "Wikipedia: Топливный кризис в России",
+          "url": "https://ru.wikipedia.org/wiki/Топливный_кризис_в_России_(с_2025)"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "omsk",
+      "region": "Омская область",
+      "city": "Омск",
+      "federal_district": "СФО",
+      "status": "strained",
+      "fuels": [
+        "АИ-92",
+        "АИ-95"
+      ],
+      "limit": "40 л в одни руки",
+      "price_95": null,
+      "price_92": null,
+      "note": "Лимит отпуска — 40 литров на одну заправку.",
+      "since": "2026-06",
+      "lat": 54.99,
+      "lon": 73.37,
+      "sources": [
+        {
+          "title": "Wikipedia: Топливный кризис в России",
+          "url": "https://ru.wikipedia.org/wiki/Топливный_кризис_в_России_(с_2025)"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "samara",
+      "region": "Самарская область",
+      "city": "Самара",
+      "federal_district": "ПФО",
+      "status": "strained",
+      "fuels": [
+        "АИ-92",
+        "АИ-95"
+      ],
+      "limit": "40 л в одни руки",
+      "price_95": null,
+      "price_92": null,
+      "note": "Лимит отпуска — 40 литров на одну заправку.",
+      "since": "2026-06",
+      "lat": 53.2,
+      "lon": 50.15,
+      "sources": [
+        {
+          "title": "Wikipedia: Топливный кризис в России",
+          "url": "https://ru.wikipedia.org/wiki/Топливный_кризис_в_России_(с_2025)"
+        }
+      ],
+      "verified": true
+    },
+    {
+      "id": "sevastopol",
+      "region": "Севастополь",
+      "city": "Севастополь",
+      "federal_district": "ЮФО",
+      "status": "severe",
+      "fuels": [
+        "АИ-95",
+        "АИ-92"
+      ],
+      "limit": "резкое ограничение продаж",
+      "price_95": null,
+      "price_92": null,
+      "note": "Острый дефицит вместе с Крымом; продажи населению резко ограничены. Уточняется.",
+      "since": "2025-08",
+      "lat": 44.62,
+      "lon": 33.53,
+      "sources": [
+        {
+          "title": "Радио Свобода: Нефтяная держава без бензина",
+          "url": "https://www.svoboda.org/a/neftyanaya-derzhava-bez-benzina-toplivnyy-krizis-v-rossiyskih-regionah/33786850.html"
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "spb",
+      "region": "Санкт-Петербург и Ленинградская область",
+      "city": "Санкт-Петербург",
+      "federal_district": "СЗФО",
+      "status": "strained",
+      "fuels": [
+        "АИ-95"
+      ],
+      "limit": "лимиты на части АЗС",
+      "price_95": null,
+      "price_92": null,
+      "note": "С 16 июня 2026 на ряде сетей введены лимиты, местами до 20 л; сообщалось об очередях. Уточняется.",
+      "since": "2026-06",
+      "lat": 59.94,
+      "lon": 30.31,
+      "sources": [
+        {
+          "title": "Радио Свобода: Нефтяная держава без бензина",
+          "url": "https://www.svoboda.org/a/neftyanaya-derzhava-bez-benzina-toplivnyy-krizis-v-rossiyskih-regionah/33786850.html"
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "khabarovsk",
+      "region": "Хабаровский край",
+      "city": "Хабаровск",
+      "federal_district": "ДФО",
+      "status": "deficit",
+      "fuels": [
+        "АИ-92",
+        "АИ-95"
+      ],
+      "limit": "30 л, без канистр",
+      "price_95": null,
+      "price_92": null,
+      "note": "Перебои с осени 2025 (Советско-Гаванский и Ванинский районы), лимит 30 л без продажи в канистры. Уточняется.",
+      "since": "2025-09",
+      "lat": 48.48,
+      "lon": 135.07,
+      "sources": [
+        {
+          "title": "Lenta.ru: Дефицит бензина в России",
+          "url": "https://lenta.ru/articles/2025/10/03/defitsit-benzina-v-rossii/"
+        }
+      ],
+      "verified": false
+    },
+    {
+      "id": "kaluga",
+      "region": "Калужская область",
+      "city": "Калуга",
+      "federal_district": "ЦФО",
+      "status": "strained",
+      "fuels": [
+        "АИ-92"
+      ],
+      "limit": null,
+      "price_95": null,
+      "price_92": 72,
+      "note": "АИ-92 доходил до 72 ₽ (против 54,22 ₽ в начале лета). Уточняется.",
+      "since": "2025-09",
+      "lat": 54.51,
+      "lon": 36.26,
+      "sources": [
+        {
+          "title": "Lenta.ru: Дефицит бензина в России",
+          "url": "https://lenta.ru/articles/2025/10/03/defitsit-benzina-v-rossii/"
+        }
+      ],
+      "verified": false
+    }
+  ]
+}

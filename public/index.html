@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b0d10" />
+  <title>Где 95-й — дефицит бензина в городах России</title>
+  <meta name="description" content="Живая карта дефицита бензина в городах России: где перебои с АИ-92 и АИ-95, лимиты на АЗС, цены. Обновляется ежедневно." />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="hdr">
+      <div class="hdr-row">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true">⛽</span>
+          <span class="brand-name">Где&nbsp;95-й</span>
+        </div>
+        <button id="themeBtn" class="icon-btn" title="Тема" aria-label="Переключить тему">◐</button>
+      </div>
+      <p class="tagline">Дефицит бензина в городах России — в реальном времени</p>
+    </header>
+
+    <section class="status-hero" id="hero" aria-live="polite">
+      <!-- national status injected here -->
+    </section>
+
+    <div class="controls">
+      <label class="search">
+        <span class="search-ico" aria-hidden="true">⌕</span>
+        <input id="search" type="search" inputmode="search" placeholder="Город или регион…" autocomplete="off" />
+      </label>
+      <div class="filters" id="filters" role="tablist">
+        <button class="chip is-active" data-filter="all" role="tab">Все</button>
+        <button class="chip" data-filter="severe" role="tab">Жёсткий</button>
+        <button class="chip" data-filter="deficit" role="tab">Дефицит</button>
+        <button class="chip" data-filter="strained" role="tab">Перебои</button>
+      </div>
+    </div>
+
+    <main id="list" class="list" aria-live="polite">
+      <div class="skeleton"></div>
+      <div class="skeleton"></div>
+      <div class="skeleton"></div>
+    </main>
+
+    <footer class="ftr">
+      <span id="updated" class="updated"></span>
+      <span class="dot">·</span>
+      <span class="src-note">данные из открытых источников</span>
+    </footer>
+  </div>
+
+  <div id="offline" class="offline hidden">нет сети — показаны сохранённые данные</div>
+
+  <script src="app.js"></script>
+</body>
+</html>

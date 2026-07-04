@@ -1,0 +1,14 @@
+{
+  "name": "gde-95",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Где 95-й — трекер дефицита бензина в городах России (PWA + TWA)",
+  "scripts": {
+    "icons": "node scripts/make-icons.mjs",
+    "serve": "node scripts/serve.mjs",
+    "validate": "node scripts/validate-data.mjs"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
+  }
+}
