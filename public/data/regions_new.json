@@ -9,11 +9,12 @@
     "limit": "продажа населению остановлена",
     "price_95": null,
     "price_92": null,
-    "note": "Первый регион с дефицитом (август 2025). С 21 июня 2026 продажа топлива физическим и юридическим лицам полностью прекращена — заправляют только структуры безопасности и жизнеобеспечения.",
+    "note": "Первый регион с дефицитом (август 2025). С 21 июня 2026 свободная продажа топлива физическим и юридическим лицам прекращена; бензин идёт только спецслужбам. На части АЗС в свободной продаже появилось дизтопливо и премиальные марки (АИ-95 Ultra на семи АЗС «Атан»). Власти обещают сохранение ограничений ещё около месяца.",
     "since": "2025-08",
     "lat": 44.95,
     "lon": 34.1,
     "sources": [
+      { "title": "Ведомости: в Крыму прекратили продажу топлива физлицам (21 июня 2026)", "url": "https://www.vedomosti.ru/business/articles/2026/06/21/1207557-krimu-prekratili-prodazhu" },
       { "title": "Wikipedia: Топливный кризис в России (с 2025)", "url": "https://ru.wikipedia.org/wiki/Топливный_кризис_в_России_(с_2025)" }
     ],
     "verified": true
@@ -25,15 +26,16 @@
     "federal_district": "ЮФО",
     "status": "severe",
     "fuels": ["АИ-95", "АИ-92"],
-    "limit": "продажа населению остановлена",
+    "limit": "продажа населению фактически остановлена",
     "price_95": null,
     "price_92": null,
-    "note": "Вместе с Крымом с 21 июня 2026 свободная продажа топлива населению прекращена, заправляются только спецслужбы.",
+    "note": "Вместе с Крымом с 21 июня 2026 свободная продажа топлива населению прекращена. С 4 июля 2026 девять АЗС возобновили свободную продажу двух марок топлива (премиум), но массовая продажа населению не восстановлена; поставки наращивают, ограничения обещают снять примерно через месяц.",
     "since": "2025-08",
     "lat": 44.62,
     "lon": 33.53,
     "sources": [
-      { "title": "Wikipedia: Топливный кризис в России (с 2025)", "url": "https://ru.wikipedia.org/wiki/Топливный_кризис_в_России_(с_2025)" }
+      { "title": "Finance.mail.ru: где в России ограничили продажи бензина (4 июля 2026)", "url": "https://finance.mail.ru/article/gde-v-rossii-ogranichili-prodazhi-benzina-69216288/" },
+      { "title": "Ведомости: в Крыму прекратили продажу топлива физлицам (21 июня 2026)", "url": "https://www.vedomosti.ru/business/articles/2026/06/21/1207557-krimu-prekratili-prodazhu" }
     ],
     "verified": true
   },
@@ -47,11 +49,12 @@
     "limit": "15 л, только в бак",
     "price_95": null,
     "price_92": null,
-    "note": "Самый жёсткий лимит в стране — 15 литров за одну заправку и только в бак автомобиля (с 26 июня 2026).",
+    "note": "Самый жёсткий лимит в стране — 15 литров за заправку и только в бак (с 26 июня 2026, режим повышенной готовности). С 3 июля сети АЗС БРК и «Корс» после пересчёта запасов снова начали продавать бензин гражданам в Чите.",
     "since": "2026-06",
     "lat": 52.03,
     "lon": 113.5,
     "sources": [
+      { "title": "ЧИТА.ру: БРК пересчитала запасы и продолжит продавать бензин в Чите (3 июля 2026)", "url": "https://www.chita.ru/text/business/2026/07/03/76512932/" },
       { "title": "Wikipedia: Топливный кризис в России (с 2025)", "url": "https://ru.wikipedia.org/wiki/Топливный_кризис_в_России_(с_2025)" }
     ],
     "verified": true
@@ -65,13 +68,14 @@
     "fuels": ["АИ-92", "АИ-95"],
     "limit": "50 л/сутки (Роснефть), канистры запрещены",
     "price_95": null,
-    "price_92": 71,
-    "note": "Введён режим повышенной готовности. В сети «Роснефть» лимит 50 л в сутки на машину, продажа в канистры запрещена; крупнейшая частная сеть АЗС Восточной Сибири 1 июля 2026 полностью прекратила продажу бензина гражданам.",
+    "price_92": null,
+    "note": "Введён режим повышенной готовности. В сети «Роснефть» суточный лимит 50 л на автомобиль, продажа в канистры запрещена; крупнейшая частная сеть АЗС Восточной Сибири 1 июля 2026 прекратила продажу бензина гражданам. Ко 2 июля топливо начало поступать независимым сетям.",
     "since": "2026-06",
     "lat": 52.29,
     "lon": 104.3,
     "sources": [
-      { "title": "The Moscow Times: крупнейшая частная сеть АЗС Восточной Сибири прекратила продажу бензина гражданам", "url": "https://ru.themoscowtimes.com/2026/07/01/krupneishaya-chastnaya-set-azs-vvostochnoi-sibiri-polnostyu-prekratila-prodazhu-benzina-grazhdanam-a199719" }
+      { "title": "The Moscow Times: крупнейшая частная сеть АЗС Восточной Сибири прекратила продажу бензина гражданам (1 июля 2026)", "url": "https://ru.themoscowtimes.com/2026/07/01/krupneishaya-chastnaya-set-azs-vvostochnoi-sibiri-polnostyu-prekratila-prodazhu-benzina-grazhdanam-a199719" },
+      { "title": "KP.RU: ситуация с бензином в Иркутске на 2 июля 2026", "url": "https://www.irk.kp.ru/daily/277794/5270979/" }
     ],
     "verified": true
   },
@@ -85,11 +89,31 @@
     "limit": "20–30 л бензина, запрет канистр",
     "price_95": null,
     "price_92": null,
-    "note": "На сетях «Газпромнефть» и «Лукойл» введены лимиты 20–30 л на бензин (60 л дизеля), запрет на отпуск в канистры; на трассах для дизеля до 200 л.",
+    "note": "На сетях «Газпромнефть» и «Лукойл» введены лимиты 20–30 л бензина (до 60 л дизеля), запрет на отпуск в канистры; на трассах для дизеля до 200 л. На трёх АЗС «Лукойла» лимит 20–30 л на клиента.",
     "since": "2026-06",
     "lat": 55.75,
     "lon": 37.62,
     "sources": [
+      { "title": "Finance.mail.ru: где продажа бензина ограничена (1 июля 2026)", "url": "https://finance.mail.ru/article/gde-prodazha-benzina-ogranichena-i-kogda-situaciya-normalizuetsya-69215852/" }
+    ],
+    "verified": true
+  },
+  {
+    "id": "moskovskaya-obl",
+    "region": "Московская область",
+    "city": "Красногорск",
+    "federal_district": "ЦФО",
+    "status": "deficit",
+    "fuels": ["АИ-92", "АИ-95"],
+    "limit": "20–30 л бензина / 60 л дизеля",
+    "price_95": null,
+    "price_92": null,
+    "note": "Острый дефицит: часть топлива вывозится в Москву. Лимиты 20–30 литров бензина и до 60 литров дизеля на автомобиль, запрет продажи в канистры.",
+    "since": "2026-06",
+    "lat": 55.83,
+    "lon": 37.33,
+    "sources": [
+      { "title": "Finance.mail.ru: где действуют ограничения на бензин (26 июня 2026)", "url": "https://finance.mail.ru/article/problemy-s-benzinom-v-rf-gde-dejstvuyut-ogranicheniya-i-kogda-normalizuetsya-situaciya-69215089/" },
       { "title": "Finance.mail.ru: где продажа бензина ограничена (1 июля 2026)", "url": "https://finance.mail.ru/article/gde-prodazha-benzina-ogranichena-i-kogda-situaciya-normalizuetsya-69215852/" }
     ],
     "verified": true
@@ -104,7 +128,7 @@
     "limit": "30 л в бак, 10 л в канистру",
     "price_95": null,
     "price_92": null,
-    "note": "Лимит отпуска — 30 литров в бак и не более 10 литров в канистру.",
+    "note": "Лимит отпуска — не более 30 литров в бак и до 10 литров в канистру.",
     "since": "2026-06",
     "lat": 45.04,
     "lon": 38.98,
@@ -128,7 +152,7 @@
     "lat": 42.98,
     "lon": 47.5,
     "sources": [
-      { "title": "Wikipedia: Топливный кризис в России (с 2025)", "url": "https://ru.wikipedia.org/wiki/Топливный_кризис_в_России_(с_2025)" }
+      { "title": "Finance.mail.ru: где действуют ограничения на бензин (26 июня 2026)", "url": "https://finance.mail.ru/article/problemy-s-benzinom-v-rf-gde-dejstvuyut-ogranicheniya-i-kogda-normalizuetsya-situaciya-69215089/" }
     ],
     "verified": true
   },
@@ -145,7 +169,7 @@
     "note": "Введён режим повышенной готовности; топливо отпускают только в бак — до 100 л бензина и 200 л дизеля.",
     "since": "2026-06",
     "lat": 53.2,
-    "lon": 45.0,
+    "lon": 45,
     "sources": [
       { "title": "ПТ Today: топливный кризис в России, 4 июля 2026", "url": "https://www.ptoday.ru/13187-toplivnyj-krizis-v-rossii-4-ijulja-2026-goda-deficit-ohvatil-vse-regiony-strany-vlasti-obeschajut-uluchshenie-k-avgustu.html" }
     ],
@@ -180,7 +204,7 @@
     "limit": "30 л, только в бак",
     "price_95": null,
     "price_92": null,
-    "note": "Лимит отпуска — 30 литров только в бак автомобиля (ограничение действует до 5 июля 2026).",
+    "note": "Лимит отпуска — 30 литров только в бак автомобиля; ограничение вводилось до 5 июля 2026, продление уточняется.",
     "since": "2026-06",
     "lat": 52.61,
     "lon": 39.6,
@@ -199,7 +223,7 @@
     "limit": "30 л на автомобиль",
     "price_95": null,
     "price_92": null,
-    "note": "Лимит отпуска — 30 литров на машину (ограничение продлено до 15 июля 2026).",
+    "note": "Лимит отпуска — не более 30 литров на машину (ограничение продлевалось до середины июля 2026).",
     "since": "2026-06",
     "lat": 51.53,
     "lon": 46.03,
@@ -247,6 +271,25 @@
     "verified": true
   },
   {
+    "id": "oryol",
+    "region": "Орловская область",
+    "city": "Орёл",
+    "federal_district": "ЦФО",
+    "status": "deficit",
+    "fuels": ["АИ-92", "АИ-95"],
+    "limit": "30 л в населённых пунктах / 50 л на трассах",
+    "price_95": null,
+    "price_92": null,
+    "note": "Лимит 30 литров бензина за заправку в населённых пунктах и 50 литров на трассовых АЗС. С 4 июля возможен переход на выдачу по номерам автомобилей с увеличением до 50 л.",
+    "since": "2026-06",
+    "lat": 52.97,
+    "lon": 36.06,
+    "sources": [
+      { "title": "Sravni.ru: где ввели ограничения на бензин (3 июля 2026)", "url": "https://www.sravni.ru/novost/2026/7/3/gde-vveli-ogranicheniya-na-benzin-v-iyune-2026-goda-regiony-i-limity/" }
+    ],
+    "verified": true
+  },
+  {
     "id": "yakutia",
     "region": "Республика Саха (Якутия)",
     "city": "Якутск",
@@ -262,6 +305,25 @@
     "lon": 129.73,
     "sources": [
       { "title": "Sravni.ru: где ввели ограничения на бензин (3 июля 2026)", "url": "https://www.sravni.ru/novost/2026/7/3/gde-vveli-ogranicheniya-na-benzin-v-iyune-2026-goda-regiony-i-limity/" }
+    ],
+    "verified": true
+  },
+  {
+    "id": "novosibirsk",
+    "region": "Новосибирская область",
+    "city": "Новосибирск",
+    "federal_district": "СФО",
+    "status": "deficit",
+    "fuels": ["АИ-92", "АИ-95"],
+    "limit": "часть АЗС закрыта",
+    "price_95": null,
+    "price_92": null,
+    "note": "На 4 июля 2026 значительная часть АЗС закрыта из-за нехватки топлива; на работающих станциях действуют лимиты и очереди.",
+    "since": "2026-06",
+    "lat": 55.03,
+    "lon": 82.92,
+    "sources": [
+      { "title": "Finance.mail.ru: где в России ограничили продажи бензина (4 июля 2026)", "url": "https://finance.mail.ru/article/gde-v-rossii-ogranichili-prodazhi-benzina-69216288/" }
     ],
     "verified": true
   },
@@ -323,21 +385,116 @@
     "verified": true
   },
   {
+    "id": "kursk",
+    "region": "Курская область",
+    "city": "Курск",
+    "federal_district": "ЦФО",
+    "status": "strained",
+    "fuels": ["АИ-92", "АИ-95"],
+    "limit": "только в бак, канистры запрещены",
+    "price_95": null,
+    "price_92": null,
+    "note": "Жёстких лимитов по объёму нет, но топливо отпускают только в бак автомобиля, продажа в канистры запрещена.",
+    "since": "2026-06",
+    "lat": 51.73,
+    "lon": 36.19,
+    "sources": [
+      { "title": "Sravni.ru: где ввели ограничения на бензин (3 июля 2026)", "url": "https://www.sravni.ru/novost/2026/7/3/gde-vveli-ogranicheniya-na-benzin-v-iyune-2026-goda-regiony-i-limity/" }
+    ],
+    "verified": true
+  },
+  {
+    "id": "bryansk",
+    "region": "Брянская область",
+    "city": "Брянск",
+    "federal_district": "ЦФО",
+    "status": "strained",
+    "fuels": ["АИ-92", "АИ-95"],
+    "limit": "канистры запрещены",
+    "price_95": null,
+    "price_92": null,
+    "note": "Лимитов по объёму нет, но запрещена заправка бензина в канистры.",
+    "since": "2026-06",
+    "lat": 53.24,
+    "lon": 34.36,
+    "sources": [
+      { "title": "Sravni.ru: где ввели ограничения на бензин (3 июля 2026)", "url": "https://www.sravni.ru/novost/2026/7/3/gde-vveli-ogranicheniya-na-benzin-v-iyune-2026-goda-regiony-i-limity/" }
+    ],
+    "verified": true
+  },
+  {
     "id": "tatarstan",
     "region": "Республика Татарстан",
     "city": "Казань",
     "federal_district": "ПФО",
     "status": "strained",
     "fuels": ["АИ-95"],
-    "limit": "30 л АИ-95",
+    "limit": "30 л бензина в одни руки",
     "price_95": null,
     "price_92": null,
-    "note": "На сетях «Татнефть» и «Газпром» лимит 30 литров АИ-95 (60 л дизеля).",
+    "note": "На сетях «Татнефть» и «Газпром» лимит 30 литров бензина в одни руки (60 л дизеля); быстро заканчивается АИ-95.",
     "since": "2026-06",
     "lat": 55.79,
     "lon": 49.12,
     "sources": [
+      { "title": "Finance.mail.ru: где продажа бензина ограничена (1 июля 2026)", "url": "https://finance.mail.ru/article/gde-prodazha-benzina-ogranichena-i-kogda-situaciya-normalizuetsya-69215852/" }
+    ],
+    "verified": true
+  },
+  {
+    "id": "chuvashia",
+    "region": "Чувашская Республика",
+    "city": "Чебоксары",
+    "federal_district": "ПФО",
+    "status": "strained",
+    "fuels": ["АИ-95"],
+    "limit": "30 л АИ-95 (Татнефть)",
+    "price_95": null,
+    "price_92": null,
+    "note": "На АЗС «Татнефть» лимит на АИ-95 — 30 литров на автомобиль.",
+    "since": "2026-06",
+    "lat": 56.13,
+    "lon": 47.25,
+    "sources": [
       { "title": "Sravni.ru: где ввели ограничения на бензин (3 июля 2026)", "url": "https://www.sravni.ru/novost/2026/7/3/gde-vveli-ogranicheniya-na-benzin-v-iyune-2026-goda-regiony-i-limity/" }
+    ],
+    "verified": true
+  },
+  {
+    "id": "ulyanovsk",
+    "region": "Ульяновская область",
+    "city": "Ульяновск",
+    "federal_district": "ПФО",
+    "status": "strained",
+    "fuels": ["АИ-92", "АИ-95"],
+    "limit": "40 л бензина / 100 л дизеля, только в бак",
+    "price_95": null,
+    "price_92": null,
+    "note": "Рекомендованный лимит — 40 литров бензина и 100 литров дизеля для легковых авто (300 л для грузовиков), только в бак.",
+    "since": "2026-06",
+    "lat": 54.31,
+    "lon": 48.39,
+    "sources": [
+      { "title": "Sravni.ru: где ввели ограничения на бензин (3 июля 2026)", "url": "https://www.sravni.ru/novost/2026/7/3/gde-vveli-ogranicheniya-na-benzin-v-iyune-2026-goda-regiony-i-limity/" }
+    ],
+    "verified": true
+  },
+  {
+    "id": "kirov",
+    "region": "Кировская область",
+    "city": "Киров",
+    "federal_district": "ПФО",
+    "status": "strained",
+    "fuels": ["АИ-92", "АИ-95"],
+    "limit": "30 л (АЗС «Движение»)",
+    "price_95": null,
+    "price_92": null,
+    "note": "На АЗС «Движение» лимит 30 литров АИ-92 и АИ-95; на «Лукойле» — до 100 литров на автомобиль.",
+    "since": "2026-06",
+    "lat": 58.6,
+    "lon": 49.66,
+    "sources": [
+      { "title": "Finance.mail.ru: где действуют ограничения на бензин (26 июня 2026)", "url": "https://finance.mail.ru/article/problemy-s-benzinom-v-rf-gde-dejstvuyut-ogranicheniya-i-kogda-normalizuetsya-situaciya-69215089/" }
     ],
     "verified": true
   },
@@ -380,6 +537,44 @@
     "verified": true
   },
   {
+    "id": "krasnoyarsk",
+    "region": "Красноярский край",
+    "city": "Красноярск",
+    "federal_district": "СФО",
+    "status": "strained",
+    "fuels": ["АИ-92", "АИ-95"],
+    "limit": "40 л в бак, канистры запрещены",
+    "price_95": null,
+    "price_92": null,
+    "note": "Лимит отпуска — не более 40 литров в бак, продажа в канистры запрещена.",
+    "since": "2026-06",
+    "lat": 56.01,
+    "lon": 92.85,
+    "sources": [
+      { "title": "Finance.mail.ru: где действуют ограничения на бензин (26 июня 2026)", "url": "https://finance.mail.ru/article/problemy-s-benzinom-v-rf-gde-dejstvuyut-ogranicheniya-i-kogda-normalizuetsya-situaciya-69215089/" }
+    ],
+    "verified": true
+  },
+  {
+    "id": "kemerovo",
+    "region": "Кемеровская область",
+    "city": "Кемерово",
+    "federal_district": "СФО",
+    "status": "strained",
+    "fuels": ["АИ-92", "АИ-95"],
+    "limit": "40 л бензина / 80 л дизеля",
+    "price_95": null,
+    "price_92": null,
+    "note": "Лимит 40 литров бензина и 80 литров дизеля (до 200 л дизеля на трассах).",
+    "since": "2026-06",
+    "lat": 55.35,
+    "lon": 86.09,
+    "sources": [
+      { "title": "Finance.mail.ru: где продажа бензина ограничена (1 июля 2026)", "url": "https://finance.mail.ru/article/gde-prodazha-benzina-ogranichena-i-kogda-situaciya-normalizuetsya-69215852/" }
+    ],
+    "verified": true
+  },
+  {
     "id": "kurgan",
     "region": "Курганская область",
     "city": "Курган",
@@ -399,6 +594,25 @@
     "verified": true
   },
   {
+    "id": "hmao",
+    "region": "Ханты-Мансийский АО — Югра",
+    "city": "Ханты-Мансийск",
+    "federal_district": "УФО",
+    "status": "strained",
+    "fuels": ["АИ-92", "АИ-95"],
+    "limit": "40 л бензина / 80 л дизеля",
+    "price_95": null,
+    "price_92": null,
+    "note": "Лимит отпуска — не более 40 литров бензина и 80 литров дизтоплива на автомобиль.",
+    "since": "2026-06",
+    "lat": 61.0,
+    "lon": 69.0,
+    "sources": [
+      { "title": "Finance.mail.ru: где действуют ограничения на бензин (26 июня 2026)", "url": "https://finance.mail.ru/article/problemy-s-benzinom-v-rf-gde-dejstvuyut-ogranicheniya-i-kogda-normalizuetsya-situaciya-69215089/" }
+    ],
+    "verified": true
+  },
+  {
     "id": "murmansk",
     "region": "Мурманская область",
     "city": "Мурманск",
@@ -408,12 +622,31 @@
     "limit": "30 л бензина / 60 л дизеля",
     "price_95": null,
     "price_92": null,
-    "note": "На сети «Лукойл» лимит 30 литров бензина и 60 литров дизеля; на «Газпромнефти» — 30 л бензина и 30 л дизеля.",
+    "note": "На сети «Лукойл» лимит 30 литров бензина и 60 литров дизеля; на «Газпромнефти» — 30 л бензина и 30 л дизеля; на «Роснефти» бензин ограничен 99 л.",
     "since": "2026-06",
     "lat": 68.97,
     "lon": 33.08,
     "sources": [
       { "title": "Finance.mail.ru: где продажа бензина ограничена (1 июля 2026)", "url": "https://finance.mail.ru/article/gde-prodazha-benzina-ogranichena-i-kogda-situaciya-normalizuetsya-69215852/" }
+    ],
+    "verified": true
+  },
+  {
+    "id": "vologda",
+    "region": "Вологодская область",
+    "city": "Вологда",
+    "federal_district": "СЗФО",
+    "status": "strained",
+    "fuels": ["АИ-92", "АИ-95"],
+    "limit": "30 л бензина / 60 л дизеля, только в бак",
+    "price_95": null,
+    "price_92": null,
+    "note": "Лимит 30 литров бензина и 60 литров дизеля, только в бак; на трассовых АЗС — 30 л бензина и до 200 л дизеля.",
+    "since": "2026-06",
+    "lat": 59.22,
+    "lon": 39.89,
+    "sources": [
+      { "title": "Sravni.ru: где ввели ограничения на бензин (3 июля 2026)", "url": "https://www.sravni.ru/novost/2026/7/3/gde-vveli-ogranicheniya-na-benzin-v-iyune-2026-goda-regiony-i-limity/" }
     ],
     "verified": true
   },
@@ -427,7 +660,7 @@
     "limit": "30 л бензина / 60 л дизеля",
     "price_95": null,
     "price_92": null,
-    "note": "Лимит отпуска — 30 литров бензина и 60 литров дизеля на автомобиль.",
+    "note": "Лимит отпуска — 30 литров бензина в один бак и 60 литров дизеля на автомобиль.",
     "since": "2026-06",
     "lat": 54.71,
     "lon": 20.51,
@@ -456,25 +689,6 @@
     "verified": true
   },
   {
-    "id": "kemerovo",
-    "region": "Кемеровская область",
-    "city": "Кемерово",
-    "federal_district": "СФО",
-    "status": "strained",
-    "fuels": ["АИ-92", "АИ-95"],
-    "limit": "40 л бензина / 80 л дизеля",
-    "price_95": null,
-    "price_92": null,
-    "note": "Лимит 40 литров бензина и 80 литров дизеля (до 200 л дизеля на трассах).",
-    "since": "2026-06",
-    "lat": 55.35,
-    "lon": 86.09,
-    "sources": [
-      { "title": "Finance.mail.ru: где продажа бензина ограничена (1 июля 2026)", "url": "https://finance.mail.ru/article/gde-prodazha-benzina-ogranichena-i-kogda-situaciya-normalizuetsya-69215852/" }
-    ],
-    "verified": true
-  },
-  {
     "id": "spb",
     "region": "Санкт-Петербург и Ленинградская область",
     "city": "Санкт-Петербург",
@@ -489,7 +703,7 @@
     "lat": 59.94,
     "lon": 30.31,
     "sources": [
-      { "title": "Sravni.ru: где ввели ограничения на бензин (3 июля 2026)", "url": "https://www.sravni.ru/novost/2026/7/3/gde-vveli-ogranicheniya-na-benzin-v-iyune-2026-goda-regiony-i-limity/" }
+      { "title": "Finance.mail.ru: где продажа бензина ограничена (1 июля 2026)", "url": "https://finance.mail.ru/article/gde-prodazha-benzina-ogranichena-i-kogda-situaciya-normalizuetsya-69215852/" }
     ],
     "verified": true
   },
@@ -503,7 +717,7 @@
     "limit": "30 л, только в бак (Советско-Гаванский и Ванинский районы)",
     "price_95": null,
     "price_92": null,
-    "note": "Лимит 30 литров только в бак действует в Советско-Гаванском и Ванинском районах; на большинстве АЗС края бензин отпускают без серьёзных ограничений, дефицита дизеля нет.",
+    "note": "Лимит 30 литров только в бак действует в Советско-Гаванском и Ванинском районах; на большинстве АЗС края бензин отпускают без серьёзных ограничений.",
     "since": "2025-09",
     "lat": 48.48,
     "lon": 135.07,
