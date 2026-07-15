@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Как ИИ сам управляет сервером: сторож-дирижёр для контент-завода</title>
+<meta name="description" content="Наш контент-завод «Широков AI» работает на одном сервере: рендеры видео, десяток автоматических браузеров, боты соцсетей, нейросети генерации — всё одновременно">
+<link rel="canonical" href="https://ithelp30-prog.github.io/gde-95/public/articles/kak-ii-sam-upravlyaet-serverom-storozh-dirizher-dlya-kon-ai-server-guardian/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Как ИИ сам управляет сервером: сторож-дирижёр для контент-завода">
+<meta property="og:description" content="Наш контент-завод «Широков AI» работает на одном сервере: рендеры видео, десяток автоматических браузеров, боты соцсетей, нейросети генерации — всё одновременно">
+<meta property="og:url" content="https://ithelp30-prog.github.io/gde-95/public/articles/kak-ii-sam-upravlyaet-serverom-storozh-dirizher-dlya-kon-ai-server-guardian/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="last-modified" content="2026-07-15">
+<link rel="stylesheet" href="https://ithelp30-prog.github.io/gde-95/public/articles/article.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Как ИИ сам управляет сервером: сторож-дирижёр для контент-завода","description":"Наш контент-завод «Широков AI» работает на одном сервере: рендеры видео, десяток автоматических браузеров, боты соцсетей, нейросети генерации — всё одновременно","inLanguage":"ru-RU","datePublished":"2026-07-15","dateModified":"2026-07-15","author":{"@type":"Organization","name":"Широков AI","url":"https://t.me/top_comp"},"publisher":{"@type":"Organization","name":"Широков AI","url":"https://t.me/top_comp"},"mainEntityOfPage":"https://ithelp30-prog.github.io/gde-95/public/articles/kak-ii-sam-upravlyaet-serverom-storozh-dirizher-dlya-kon-ai-server-guardian/"}</script>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="https://ithelp30-prog.github.io/gde-95/public/">⛽ Где 95-й</a>
+  <a class="chan" href="https://t.me/top_comp" target="_blank" rel="noopener">Канал «Широков AI»</a>
+</header>
+<main class="wrap">
+<article>
+    <h1>Как ИИ сам управляет сервером: сторож-дирижёр для контент-завода</h1>
+    <p class="meta">Опубликовано: 15 июля 2026 г. · <a href="https://t.me/top_comp" target="_blank" rel="noopener">«Широков AI»</a></p>
+    <p class="lead">Наш контент-завод «Широков AI» работает на одном сервере: рендеры видео, десяток автоматических браузеров, боты соцсетей, нейросети генерации — всё одновременно. Однажды ночью сервер завис: диск заполнился на 95% (свобод</p>
+    <p>Наш контент-завод «Широков AI» работает на одном сервере: рендеры видео, десяток автоматических браузеров, боты соцсетей, нейросети генерации — всё одновременно. Однажды ночью сервер завис: диск заполнился на 95% (свободно 3.6 ГБ из 80), скорость чтения-записи рухнула, система перестала отвечать.</p><p><strong>Настоящая причина</strong></p><p>Дело было не только в месте. В логах — 142 ошибки контроллера диска за двое суток. Слишком много тяжёлых процессов долбили диск одновременно: рендер пишет гигабайты, антивирус тут же их перечитывает, боты качают, браузеры кэшируют. Подсистема ввода-вывода просто не справлялась — как одна касса, к которой выстроилась толпа.</p><p><strong>Решение: сторож-дирижёр</strong></p><p>Вместо ручного ремонта мы построили программу-сторожа на Python (psutil), которая управляет нагрузкой сервера как дирижёр оркестром:</p><p>— каждые 10 секунд измеряет диск, процессор и память;</p><p>— при перегрузке держит активной одну тяжёлую задачу, остальные ставит на паузу и раз в 45 секунд меняет местами — задачи идут по очереди, диск не захлёбывается;</p><p>— при нехватке места сам чистит временные файлы и кэши;</p><p>— присылает владельцу уведомление в Telegram;</p><p>— сам перезапускается при сбое и ночью проверяет целостность системы (DISM + sfc).</p><p><strong>Результат</strong></p><p>Свободного места стало 30 ГБ вместо 3.6, сервер перестал зависать и держится сам, без вмешательства человека. Инфраструктура контент-завода стала самовосстанавливающейся (self-healing): раньше ресурсами управлял человек — теперь это делает ИИ.</p><p><strong>Вывод</strong></p><p>Мы привыкли, что искусственный интеллект пишет тексты и рисует картинки. Но следующий шаг — когда ИИ управляет инфраструктурой: сам распределяет ресурсы, сам наводит порядок, сам лечится. Это и есть настоящий автопилот.</p>
+    
+  </article>
+</main>
+<footer class="foot">
+  <p>Материал канала <a href="https://t.me/top_comp" target="_blank" rel="noopener">«Широков AI»</a>.
+  Данные из открытых источников. Обновлено: 15 июля 2026 г..</p>
+  <p><a href="https://ithelp30-prog.github.io/gde-95/public/">Открыть приложение «Где 95-й»</a> · <a href="https://ithelp30-prog.github.io/gde-95/public/articles/">Все материалы</a></p>
+</footer>
+</body>
+</html>
